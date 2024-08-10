@@ -1,0 +1,42 @@
+.customer-info-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.customer-info-header {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.customer-info-body {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-info-card {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+}
+
+.customer-info-card-header {
+	font-size: large;
+	font-weight: 600;
+	color: black;
+}
+
+.customer-info-card-body {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}

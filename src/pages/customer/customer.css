@@ -1,0 +1,26 @@
+.customer-container {
+	background-color: #f9f9f9;
+	color: #333;
+	height: calc(100vh - 92px);
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.customer-container .customer-list {
+	min-width: 20rem;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-right: 1rem;
+}
+
+.customer-container .customer-info {
+	flex: 1;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-left: 1rem;
+}
