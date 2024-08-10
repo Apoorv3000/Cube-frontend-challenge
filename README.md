@@ -12,7 +12,7 @@ Step-by-step instructions on how to get the development environment running.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/Apoorv3000/Cube-frontend-challenge.git
 
 # Navigate to the project directory
 cd yourproject
