@@ -1,17 +1,22 @@
+import { useState } from 'react'
 import { useAppDispatch, useAppSelector } from '../../../lib/redux-hooks'
 import { Customer } from '../../../lib/types'
+import { fetchPhotos } from '../../../store/actions/photos-action'
 import { setAtiveCustomer } from '../../../store/features/customer-slice'
 import './customer-list.css'
 
 const CustomerList = () => {
     const { customers, activeCustomer } = useAppSelector(state => state.customer)
-
+    const [pageNumber, setPageNumber] = useState(1)
     const dispatch = useAppDispatch()
 
     const renderCustomerListCard = (customer: Customer) => {
 
+
         const handleSelectCustomer = (customer: Customer) => {
             dispatch(setAtiveCustomer(customer))
+            setPageNumber(prev => prev + 1)
+            dispatch(fetchPhotos(pageNumber + 1))
         }
 
         return (

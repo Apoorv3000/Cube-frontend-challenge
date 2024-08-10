@@ -43,6 +43,7 @@ const customerSlice = createSlice({
 		});
 		builder.addCase(fetchPhotos.fulfilled, (state, action) => {
 			state.photos = action.payload;
+
 			state.photosLoading = false;
 		});
 		builder.addCase(fetchPhotos.rejected, (state, action) => {
