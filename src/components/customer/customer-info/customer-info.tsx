@@ -3,7 +3,8 @@ import { useAppSelector } from "../../../lib/redux-hooks"
 
 const CustomerInfo = () => {
 
-    const { activeCustomer } = useAppSelector(state => state.customer)
+    const { activeCustomer, photos, photosError, photosLoading } = useAppSelector(state => state.customer)
+
 
 
     const renderCustomerInfoCard = () => {

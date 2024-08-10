@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const UNSPLASH_ACCOUNT_KEY = process.env.REACT_APP_UNSPLASH_ACCOUNT_KEY;
+const UNSPLASH_ACCOUNT_KEY = process.env.VITE_APP_UNSPLASH_ACCOUNT_KEY;
 if (!UNSPLASH_ACCOUNT_KEY) {
 	throw new Error("UNSPLASH_ACCOUNT_KEY is not defined");
 }

@@ -5,9 +5,10 @@
 }
 
 .customer-info-header {
-	display: flex;
 	text-align: center;
-	align-items: center;
+	display: block;
+	font-size: large;
+	font-weight: 600;
 }
 
 .customer-info-body {
@@ -15,7 +16,6 @@
 	flex-direction: column;
 	gap: 1rem;
 	padding: 1rem;
-	background-color: white;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

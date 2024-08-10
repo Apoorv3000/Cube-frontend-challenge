@@ -21,9 +21,9 @@ cd yourproject
 npm install
 
 # Add env
-REACT_APP_UNSPLASH_ACCOUNT_KEY = your example key
+VITE_APP_UNSPLASH_ACCOUNT_KEY = your example key
 
-REACT_APP_UNSPLASH_SECRET_KEY = your example secret key
+VITE_APP_UNSPLASH_SECRET_KEY = your example secret key
 
 # Start the project
 npm run dev
